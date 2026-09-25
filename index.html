@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZigmaSocial — Social Media Management</title>
+<meta name="description" content="ZigmaSocial is an all-in-one social media management workspace for planning, publishing, engagement and analytics.">
+<meta name="theme-color" content="#07111f">
+<meta property="og:title" content="ZigmaSocial — Social Media Management">
+<meta property="og:description" content="Plan, publish, engage and analyze social media from one workspace.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="zigma-logo.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="toast"></div>
+
+
+<section id="landingPage" class="landing-page">
+  <header class="landing-nav">
+    <a class="brand" href="#landingPage"><img src="zigma-logo.png" alt="ZigmaSocial logo"><span class="brand-word">Zigma<span>Social</span></span></a>
+    <nav>
+      <a href="#landingFeatures">Features</a>
+      <a href="#landingPlatform">Platform</a>
+      <a href="#landingHow">How it works</a>
+      <a href="#landingAnalytics">Analytics</a>
+      <a href="#landingPricing">Pricing</a>
+    </nav>
+    <div class="landing-actions">
+      <button class="landing-login" onclick="openLogin()">Log in</button>
+      <button class="btn primary" onclick="openLogin()">Start Free</button>
+    </div>
+  </header>
+
+  <section class="landing-hero">
+    <div class="landing-copy">
+      <div class="pill light">✦ ALL-IN-ONE SOCIAL MEDIA MANAGEMENT</div>
+      <h1>Plan smarter.<br><span>Post everywhere.</span><br>Grow faster.</h1>
+      <p>Create, schedule, publish and analyze your social media from one simple workspace. Spend less time managing platforms and more time creating content.</p>
+      <div class="landing-buttons">
+        <button class="btn primary big" onclick="openLogin()">Start Free →</button>
+        <button class="btn watch" onclick="showDemo()">▶ Watch Demo</button>
+      </div>
+      <div class="landing-trust">
+        <span>✓ No credit card required</span>
+        <span>✓ Easy scheduling</span>
+        <span>✓ Powerful analytics</span>
+      </div>
+    </div>
+
+    <div class="landing-dashboard">
+      <div class="mock-top"><span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span><b>Social Overview</b><small>● Live preview</small></div>
+      <div class="mock-cards">
+        <div><small>Total reach</small><b>25.4K</b><em>↑ 18.2%</em></div>
+        <div><small>Engagement</small><b>4.82K</b><em>↑ 12.5%</em></div>
+        <div><small>Scheduled</small><b>16</b><em>Next 7 days</em></div>
+      </div>
+      <div class="mock-chart">
+        <div class="mock-chart-head"><b>Audience growth</b><span>+24.8%</span></div>
+        <div class="mock-bars"><i style="height:35%"></i><i style="height:48%"></i><i style="height:42%"></i><i style="height:61%"></i><i style="height:54%"></i><i style="height:76%"></i><i style="height:70%"></i><i style="height:91%"></i></div>
+      </div>
+      <div class="mock-posts">
+        <div><span class="mock-social ig">◎</span><div><b>Weekend campaign</b><small>Instagram · Today 7:00 PM</small></div><strong>Scheduled</strong></div>
+        <div><span class="mock-social fb">f</span><div><b>New product announcement</b><small>Facebook · Tomorrow 10:30 AM</small></div><strong>Scheduled</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="landing-platforms">
+    <p>Manage all your important social channels from one place</p>
+    <div><span>◎ Instagram</span><span>f Facebook</span><span>in LinkedIn</span><span>▶ YouTube</span><span>♪ TikTok</span></div>
+  </section>
+
+  <section id="landingFeatures" class="landing-section">
+    <div class="landing-heading"><div class="pill">POWERFUL FEATURES</div><h2>Everything you need to manage social media.</h2><p>From creating your first post to measuring campaign performance, ZigmaSocial keeps your workflow in one place.</p></div>
+    <div class="landing-feature-grid">
+      <article><div>◷</div><h3>Smart Scheduling</h3><p>Schedule posts for the exact date and time you want. Keep your channels active without posting manually every day.</p></article>
+      <article><div>▦</div><h3>Content Calendar</h3><p>Plan your entire week or month visually and see every scheduled post at a glance.</p></article>
+      <article><div>◔</div><h3>Advanced Analytics</h3><p>Track reach, impressions, engagement, follower growth and top-performing content.</p></article>
+      <article><div>✉</div><h3>Social Inbox</h3><p>Manage comments and messages from connected platforms in one organized inbox.</p></article>
+      <article><div>✦</div><h3>AI Content Assistant</h3><p>Create caption ideas, rewrite content and generate hashtag suggestions faster.</p></article>
+      <article><div>▣</div><h3>Media Library</h3><p>Keep images, videos and campaign assets organized and ready to publish.</p></article>
+      <article><div>✓</div><h3>Approval Workflow</h3><p>Prepare drafts and review content before it is published to your social channels.</p></article>
+      <article><div>↗</div><h3>Performance Reports</h3><p>Turn your social performance data into clear reports that are easy to understand.</p></article>
+      <article><div>✦</div><h3>AI Content Ideas</h3><p>Generate campaign ideas, reel concepts, captions, CTAs and content themes with AI.</p></article>
+      <article><div>⌁</div><h3>Best Time to Post</h3><p>Discover audience activity windows and plan posts around your strongest engagement periods.</p></article>
+      <article><div>♟</div><h3>Competitor Insights</h3><p>Track competitor activity, content patterns and engagement trends in one workspace.</p></article>
+      <article><div>▤</div><h3>Campaign Manager</h3><p>Organize posts, assets, goals and performance for each social campaign.</p></article>
+      <article><div>✓</div><h3>Content Approval</h3><p>Move content from draft to review, approval and scheduling with a clear workflow.</p></article>
+      <article><div>◈</div><h3>Brand Kit</h3><p>Keep logos, colors, fonts and brand guidelines ready for every post.</p></article>
+    </div>
+  </section>
+
+  <section id="landingHow" class="landing-how">
+    <div class="landing-heading"><div class="pill">HOW IT WORKS</div><h2>Three simple steps to better social media.</h2></div>
+    <div class="landing-steps">
+      <div><span>01</span><h3>Connect</h3><p>Connect your Instagram, Facebook and other social accounts in one workspace.</p></div>
+      <div><span>02</span><h3>Create & Schedule</h3><p>Write your caption, add hashtags and media, choose platforms and schedule your post.</p></div>
+      <div><span>03</span><h3>Analyze & Improve</h3><p>Review analytics, discover what works and use those insights for your next campaign.</p></div>
+    </div>
+  </section>
+
+  <section id="landingAnalytics" class="landing-analytics">
+    <div><div class="pill">SMART ANALYTICS</div><h2>Know what your audience loves.</h2><p>See your reach, engagement, followers and top content in a clear dashboard designed for quick decisions.</p><ul><li>Reach & impressions</li><li>Likes, comments & shares</li><li>Follower growth</li><li>Engagement rate</li></ul><button class="btn primary" onclick="openLogin()">Explore Dashboard →</button></div>
+    <div class="analytics-preview"><div><small>Engagement rate</small><b>8.42%</b><span>↑ 1.2%</span></div><div class="mini-progress"><i></i></div><div class="analytics-row"><span>Instagram</span><b>62%</b></div><div class="analytics-row"><span>Facebook</span><b>24%</b></div><div class="analytics-row"><span>LinkedIn</span><b>14%</b></div></div>
+  </section>
+
+
+  <section id="landingPlatform" class="landing-capabilities">
+    <div class="landing-heading center-heading">
+      <div class="pill">ONE WORKSPACE. MORE CONTROL.</div>
+      <h2>Everything your social team needs.</h2>
+      <p>Bring publishing, engagement, analytics and collaboration together in one focused workspace.</p>
+    </div>
+    <div class="capability-grid">
+      <article class="capability-card featured-capability">
+        <span class="cap-icon">↗</span><div><small>01 · PUBLISHING</small><h3>Plan & publish with confidence</h3><p>Build campaigns, prepare captions, choose channels and keep your content calendar organized.</p><a href="#landingHow">Explore workflow →</a></div>
+      </article>
+      <article class="capability-card"><span class="cap-icon">✉</span><div><small>02 · ENGAGEMENT</small><h3>One inbox for every conversation</h3><p>Keep comments and messages together so replies are easier to manage.</p></div></article>
+      <article class="capability-card"><span class="cap-icon">◔</span><div><small>03 · ANALYTICS</small><h3>Turn metrics into clear insights</h3><p>Understand reach, engagement, audience growth and your strongest posts.</p></div></article>
+      <article class="capability-card"><span class="cap-icon">⌁</span><div><small>04 · LISTENING</small><h3>Spot trends before they pass</h3><p>Organize keywords, mentions and campaign themes into an easy monitoring workflow.</p></div></article>
+      <article class="capability-card"><span class="cap-icon">✦</span><div><small>05 · AI ASSISTANT</small><h3>Create faster with smart ideas</h3><p>Generate caption starters, hashtag ideas and content variations when you need inspiration.</p></div></article>
+      <article class="capability-card"><span class="cap-icon">✓</span><div><small>06 · APPROVALS</small><h3>Keep every post on-brand</h3><p>Move content from draft to review to ready-to-publish with a simple approval flow.</p></div></article>
+    </div>
+  </section>
+
+  <section class="landing-showcase">
+    <div class="showcase-copy">
+      <div class="pill">CONTENT WORKFLOW</div>
+      <h2>From idea to published post, without the busywork.</h2>
+      <p>Give your team a visual workflow that keeps every piece of content moving forward.</p>
+      <div class="showcase-points">
+        <div><b>01</b><span><strong>Draft</strong><small>Write your caption and prepare media.</small></span></div>
+        <div><b>02</b><span><strong>Review</strong><small>Check copy, channels and campaign details.</small></span></div>
+        <div><b>03</b><span><strong>Schedule</strong><small>Choose the date, time and social platforms.</small></span></div>
+        <div><b>04</b><span><strong>Measure</strong><small>Review results and improve the next post.</small></span></div>
+      </div>
+    </div>
+    <div class="workflow-card">
+      <div class="workflow-top"><span>CONTENT PIPELINE</span><b>4 stages</b></div>
+      <div class="workflow-line"></div>
+      <div class="workflow-item"><span class="workflow-number">01</span><div><b>Weekend campaign</b><small>Draft · Instagram · Facebook</small></div><em>Draft</em></div>
+      <div class="workflow-item"><span class="workflow-number">02</span><div><b>Product announcement</b><small>Review · LinkedIn · Instagram</small></div><em>Review</em></div>
+      <div class="workflow-item active"><span class="workflow-number">03</span><div><b>New collection</b><small>Scheduled · Instagram · TikTok</small></div><em>Ready</em></div>
+      <div class="workflow-item"><span class="workflow-number">04</span><div><b>Monthly recap</b><small>Analytics · All channels</small></div><em>Insights</em></div>
+    </div>
+  </section>
+
+  <section class="landing-usecases">
+    <div class="landing-heading center-heading"><div class="pill">BUILT FOR DIFFERENT TEAMS</div><h2>One platform. Different workflows.</h2><p>Use ZigmaSocial as a simple planning hub for creators, brands, agencies and growing teams.</p></div>
+    <div class="usecase-grid">
+      <article><span>◉</span><h3>Creators</h3><p>Plan content batches, save ideas and keep your publishing routine consistent.</p><a href="#landingPlatform">Explore creator tools →</a></article>
+      <article><span>▦</span><h3>Marketing teams</h3><p>Coordinate campaigns, approvals, channels and reporting from one workspace.</p><a href="#landingPlatform">Explore team tools →</a></article>
+      <article><span>⌁</span><h3>Agencies</h3><p>Organize multiple campaigns and present clean performance summaries to clients.</p><a href="#landingPlatform">Explore agency tools →</a></article>
+    </div>
+  </section>
+
+  <section class="landing-integrations">
+    <div class="integration-copy"><div class="pill">CONNECTED CHANNELS</div><h2>Bring your social channels into one view.</h2><p>Keep your publishing calendar and performance overview organized across the platforms your audience uses.</p></div>
+    <div class="integration-panel">
+      <div class="integration-brand"><span>◎</span><b>Instagram</b><small>Connected</small></div>
+      <div class="integration-brand"><span>f</span><b>Facebook</b><small>Connected</small></div>
+      <div class="integration-brand"><span>in</span><b>LinkedIn</b><small>Connected</small></div>
+      <div class="integration-brand"><span>▶</span><b>YouTube</b><small>Connected</small></div>
+      <div class="integration-brand"><span>♪</span><b>TikTok</b><small>Connected</small></div>
+      <div class="integration-brand muted-integration"><span>+</span><b>More channels</b><small>Coming soon</small></div>
+    </div>
+  </section>
+
+  <section class="landing-reporting">
+    <div class="report-card">
+      <div class="report-head"><span>MONTHLY PERFORMANCE</span><b>September 2026</b></div>
+      <div class="report-main"><strong>+24.8%</strong><span>Audience growth</span></div>
+      <div class="report-chart"><i style="height:38%"></i><i style="height:52%"></i><i style="height:45%"></i><i style="height:66%"></i><i style="height:58%"></i><i style="height:77%"></i><i style="height:69%"></i><i style="height:92%"></i></div>
+      <div class="report-stats"><span><b>25.4K</b> Reach</span><span><b>4.82K</b> Engagement</span><span><b>8.42%</b> Rate</span></div>
+    </div>
+    <div class="report-copy"><div class="pill">REPORTS & INSIGHTS</div><h2>See the story behind your numbers.</h2><p>Turn scattered platform metrics into a simple performance view that helps you understand what to repeat, improve or test next.</p><ul><li>Cross-channel performance overview</li><li>Top content and engagement trends</li><li>Audience growth snapshots</li><li>Campaign-ready summaries</li></ul><button class="btn primary" onclick="openLogin()">View Analytics →</button></div>
+  </section>
+
+  <section class="landing-ai">
+    <div><div class="pill">AI CONTENT ASSISTANT</div><h2>A little help when the blank page appears.</h2><p>Start with an idea and turn it into caption options, hooks and hashtag suggestions inside your content workflow.</p><button class="btn watch" onclick="openLogin()">Try the AI demo →</button></div>
+    <div class="ai-card"><div class="ai-label">✦ AI SUGGESTION</div><h3>Weekend campaign</h3><p>“Make your weekend content easier to discover with a short, energetic caption and a focused set of relevant hashtags.”</p><div class="ai-tags"><span>#SocialMedia</span><span>#ContentPlan</span><span>#WeekendCampaign</span></div></div>
+  </section>
+
+  <section class="landing-faq">
+    <div class="landing-heading center-heading"><div class="pill">FAQ</div><h2>Questions before you get started?</h2></div>
+    <div class="faq-grid">
+      <details open><summary>What is ZigmaSocial?</summary><p>A frontend project concept for planning, creating, scheduling and analyzing social media content from one workspace.</p></details>
+      <details><summary>Can I manage multiple platforms?</summary><p>The interface is designed around multiple social channels, including Instagram, Facebook, LinkedIn, YouTube and TikTok.</p></details>
+      <details><summary>Does the demo use a real backend?</summary><p>No. This college project is a frontend-only interactive prototype, so actions are demonstrated in the browser.</p></details>
+      <details><summary>Can teams review content before publishing?</summary><p>Yes. The interface includes an approval workflow concept for drafting, reviewing and preparing content.</p></details>
+    </div>
+  </section>
+
+  <section id="landingPricing" class="landing-cta">
+    <div><div class="pill dark">READY TO GET STARTED?</div><h2>Start managing social media the smarter way.</h2><p>Create your workspace and explore the full ZigmaSocial interface.</p></div>
+    <div><button class="btn primary big" onclick="openLogin()">Start Free →</button><button class="btn watch light-watch" onclick="showDemo()">▶ Watch Demo</button></div>
+  </section>
+
+  <footer class="landing-footer">
+    <div><a class="brand" href="#landingPage"><img src="zigma-logo.png" alt="ZigmaSocial logo"><span class="brand-word">Zigma<span>Social</span></span></a><p>Simple social media management for modern teams.</p></div>
+    <div><a href="#landingFeatures">Features</a><a href="#landingHow">How it works</a><a href="#landingAnalytics">Analytics</a><a href="#landingPricing">Pricing</a><a onclick="openLogin()">Login</a></div>
+    <small>© 2026 ZigmaSocial. Frontend project concept.</small>
+  </footer>
+</section>
+
+<section id="loginPage" class="login-page hidden">
+  <div class="login-art">
+    <div class="brand"><img src="zigma-logo.png" alt="ZigmaSocial logo"><span class="brand-word">Zigma<span>Social</span></span></div>
+    <div class="login-copy">
+      <div class="pill">SOCIAL MEDIA MANAGEMENT</div>
+      <h1>Plan. Create.<br><span>Grow.</span></h1>
+      <p>Manage your social media content, schedule posts and understand your audience from one beautiful workspace.</p>
+      <div class="mini-proof"><b>✓</b> Scheduling &nbsp; <b>✓</b> Analytics &nbsp; <b>✓</b> Content creation</div>
+    </div>
+  </div>
+  <div class="login-box">
+    <div class="mobile-brand"><img src="zigma-logo.png" alt="ZigmaSocial logo"><span class="brand-word">Zigma<span>Social</span></span></div>
+    <h2>Welcome back</h2>
+    <p>Sign in to your workspace</p>
+    <form onsubmit="login(event)">
+      <label>Email</label><input id="email" type="email" placeholder="you@example.com" required>
+      <label>Password</label><input id="password" type="password" placeholder="••••••••" required>
+      <div class="login-row"><label class="check"><input type="checkbox"> Remember me</label><a href="#" onclick="toast('Demo only — password recovery is not connected.')">Forgot password?</a></div>
+      <button class="btn primary full">Login</button>
+    </form>
+    <div class="demo-note">Frontend demo — enter any email and password to explore the dashboard.</div>
+  </div>
+</section>
+
+<div id="app" class="app hidden">
+<aside class="sidebar">
+  <div class="brand side-brand"><img src="zigma-logo.png" alt="ZigmaSocial logo"><span class="brand-word">Zigma<span>Social</span></span></div>
+  <div class="workspace"><span class="avatar">P</span><div><b>ZigmaSocial Workspace</b><small>Personal workspace</small></div><span>⌄</span></div>
+  <nav class="side-nav">
+    <a class="active" data-page="dashboard">⌂ <span>Dashboard</span></a>
+    <a data-page="create">＋ <span>Create Post</span></a>
+    <a data-page="calendar">▦ <span>Content Calendar</span></a>
+    <a data-page="analytics">◔ <span>Analytics</span></a>
+    <a data-page="inbox">✉ <span>Social Inbox</span><i>8</i></a>
+    <a data-page="media">▣ <span>Media Library</span></a>
+    <a data-page="accounts">◎ <span>Social Accounts</span></a>
+    <a data-page="ai">✦ <span>AI Studio</span></a>
+    <a data-page="campaigns">◈ <span>Campaigns</span></a>
+    <a data-page="approvals">✓ <span>Approvals</span><i>3</i></a>
+    <a data-page="reports">▤ <span>Reports</span></a>
+    <a data-page="brand">◆ <span>Brand Kit</span></a>
+    <a data-page="competitors">♟ <span>Competitors</span></a>
+    <a data-page="listening">◉ <span>Social Listening</span></a>
+    <a data-page="automation">↻ <span>Automation</span></a>
+    <a data-page="bulk">▤ <span>Bulk Scheduler</span></a>
+    <a data-page="repurpose">↗ <span>Repurpose</span></a>
+    <a data-page="audience">◉ <span>Audience</span></a>
+    <a data-page="replies">✉ <span>Saved Replies</span></a>
+    <a data-page="team">♙ <span>Team & Workspaces</span></a>
+    <a data-page="linkbio">↗ <span>Link in Bio</span></a>
+  </nav>
+  <div class="side-bottom">
+    <a onclick="toast('Settings are UI-only in this demo.')">⚙ <span>Settings</span></a>
+    <a onclick="logout()">↪ <span>Log out</span></a>
+  </div>
+</aside>
+
+<main class="main">
+<header class="topbar">
+  <button class="hamb" onclick="document.querySelector('.sidebar').classList.toggle('show')">☰</button>
+  <div class="mobile-title">ZigmaSocial</div>
+  <div class="top-actions"><button onclick="toast('No new notifications')">♢</button><span class="top-user">Admin <b>Z</b></span></div>
+</header>
+
+<section id="dashboard" class="page active-page">
+  <div class="page-head"><div><span class="eyebrow">OVERVIEW</span><h1>Good morning 👋</h1><p>Here’s what’s happening with your social media today.</p></div><button class="btn primary" onclick="showPage('create')">＋ Create post</button></div>
+  <div class="stat-grid">
+    <div class="stat-card"><span>Published posts</span><b>48</b><em>↑ 12.4%</em><small>This month</small></div>
+    <div class="stat-card"><span>Scheduled</span><b>16</b><em>↑ 4.8%</em><small>Next 7 days</small></div>
+    <div class="stat-card"><span>Total reach</span><b>25.4K</b><em>↑ 18.2%</em><small>Across accounts</small></div>
+    <div class="stat-card"><span>Engagement</span><b>4.82K</b><em>↑ 12.5%</em><small>This month</small></div>
+  </div>
+  <div class="two-col">
+    <div class="panel"><div class="panel-head"><div><b>Audience growth</b><small>Last 30 days</small></div><select><option>All accounts</option><option>Instagram</option><option>Facebook</option></select></div><div class="big-number">12,840 <span>followers</span></div><div class="fake-chart"><i style="height:25%"></i><i style="height:34%"></i><i style="height:31%"></i><i style="height:45%"></i><i style="height:52%"></i><i style="height:48%"></i><i style="height:67%"></i><i style="height:61%"></i><i style="height:76%"></i><i style="height:85%"></i><i style="height:79%"></i><i style="height:94%"></i></div><div class="chart-labels"><span>Sep 1</span><span>Sep 8</span><span>Sep 15</span><span>Sep 22</span><span>Today</span></div></div>
+    <div class="panel"><div class="panel-head"><b>Upcoming posts</b><a onclick="showPage('calendar')">View calendar →</a></div><div class="upcoming"><div class="up-icon ig">◎</div><div><b>Weekend campaign</b><small>Instagram · Today at 7:00 PM</small></div><span>Scheduled</span></div><div class="upcoming"><div class="up-icon fb">f</div><div><b>New product announcement</b><small>Facebook · Tomorrow at 10:30 AM</small></div><span>Scheduled</span></div><div class="upcoming"><div class="up-icon li">in</div><div><b>Industry tips</b><small>LinkedIn · Sep 28 at 9:00 AM</small></div><span>Draft</span></div></div>
+  </div>
+  <div class="panel"><div class="panel-head"><b>Quick actions</b></div><div class="quick"><button onclick="showPage('create')">＋<span>Create a post<small>Write caption & add media</small></span></button><button onclick="showPage('calendar')">▦<span>Plan content<small>Open content calendar</small></span></button><button onclick="showPage('analytics')">◔<span>Check analytics<small>View performance</small></span></button><button onclick="showPage('accounts')">◎<span>Manage accounts<small>Connected channels</small></span></button></div></div>
+</section>
+
+<section id="create" class="page">
+  <div class="page-head"><div><span class="eyebrow">CONTENT</span><h1>Create a post</h1><p>Create once and customize for each social platform.</p></div><button class="btn ghost" onclick="showPage('calendar')">View calendar</button></div>
+  <div class="composer-grid">
+    <div class="panel composer">
+      <div class="platform-tabs"><button class="selected" onclick="selectPlatform(this,'Instagram')">◎ Instagram</button><button onclick="selectPlatform(this,'Facebook')">f Facebook</button><button onclick="selectPlatform(this,'LinkedIn')">in LinkedIn</button><button onclick="selectPlatform(this,'TikTok')">♪ TikTok</button></div>
+      <label>Caption</label><textarea id="caption" maxlength="2200" placeholder="Write your caption here...">Excited to share our latest update! ✨</textarea>
+      <div class="caption-tools"><button onclick="generateCaption()">✦ AI caption</button><button onclick="addHashtags()"># Hashtags</button><span id="count">0 / 2200</span></div>
+      <label>Hashtags</label><input id="hashtags" placeholder="#ZigmaSocial #SocialMedia #ContentCreator">
+      <label>Media</label><div class="upload" onclick="document.getElementById('file').click()"><div>＋</div><b>Add image or video</b><small>PNG, JPG, MP4 up to 50MB</small><input id="file" type="file" accept="image/*,video/*" hidden onchange="showFile(this)"></div><div id="fileName"></div>
+      <div class="create-actions"><button class="btn ghost" onclick="saveDraft()">Save draft</button><button class="btn primary" onclick="schedulePost()">Schedule post</button></div>
+    </div>
+    <div class="panel preview"><div class="panel-head"><b>Post preview</b><span class="preview-platform" id="previewPlatform">Instagram</span></div><div class="phone-post"><div class="post-user"><span class="avatar">P</span><div><b>ZigmaSocial</b><small>Just now · ◎</small></div><b>•••</b></div><div class="post-image" id="postImage">Your media preview</div><p id="previewText">Excited to share our latest update! ✨</p><div id="previewTags" class="tags"></div><div class="post-stats">♡ 124 &nbsp;&nbsp; ♧ 18 &nbsp;&nbsp; ↗ 9</div></div></div>
+  </div>
+</section>
+
+<section id="calendar" class="page">
+  <div class="page-head"><div><span class="eyebrow">PLANNING</span><h1>Content calendar</h1><p>Plan and organize your scheduled content.</p></div><button class="btn primary" onclick="showPage('create')">＋ New post</button></div>
+  <div class="calendar-toolbar"><button>‹</button><h3>September 2026</h3><button>›</button><div class="calendar-filters"><button class="filter active">All</button><button class="filter">Instagram</button><button class="filter">Facebook</button></div></div>
+  <div class="calendar"><div class="weekday">Mon</div><div class="weekday">Tue</div><div class="weekday">Wed</div><div class="weekday">Thu</div><div class="weekday">Fri</div><div class="weekday">Sat</div><div class="weekday">Sun</div>
+  <div class="day muted">31</div><div class="day">1</div><div class="day">2<div class="cal-post ig-bg">◎ New feature</div></div><div class="day">3</div><div class="day">4<div class="cal-post fb-bg">f Weekend offer</div></div><div class="day">5</div><div class="day">6</div>
+  <div class="day">7<div class="cal-post li-bg">in Tips</div></div><div class="day">8</div><div class="day">9</div><div class="day">10<div class="cal-post ig-bg">◎ Product reel</div></div><div class="day">11</div><div class="day">12</div><div class="day">13</div>
+  <div class="day">14<div class="cal-post fb-bg">f Customer story</div></div><div class="day">15</div><div class="day">16<div class="cal-post ig-bg">◎ Behind scenes</div></div><div class="day">17</div><div class="day">18</div><div class="day">19<div class="cal-post li-bg">in Industry tips</div></div><div class="day">20</div>
+  <div class="day">21<div class="cal-post ig-bg">◎ Weekend campaign</div></div><div class="day">22</div><div class="day">23<div class="cal-post fb-bg">f Announcement</div></div><div class="day today">24</div><div class="day">25<div class="cal-post ig-bg">◎ New collection</div></div><div class="day">26</div><div class="day">27</div>
+  <div class="day">28<div class="cal-post li-bg">in Industry tips</div></div><div class="day">29</div><div class="day">30<div class="cal-post ig-bg">◎ Monthly recap</div></div><div class="day muted">1</div><div class="day muted">2</div><div class="day muted">3</div><div class="day muted">4</div></div>
+</section>
+
+<section id="analytics" class="page analytics-page">
+  <div class="page-head analytics-header">
+    <div><span class="eyebrow">PERFORMANCE CENTER</span><h1>Insights & Analytics</h1><p>See what is growing, what is working, and what to improve across your channels.</p></div>
+    <div class="analytics-actions"><select class="date-select" id="analyticsRange" onchange="changeAnalyticsRange(this.value)"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="365">This year</option></select><button class="btn ghost" onclick="exportAnalytics()">⇩ Export report</button></div>
+  </div>
+
+  <div class="insight-toolbar">
+    <div class="channel-switcher"><button class="active" onclick="setAnalyticsChannel(this,'All channels')">◉ All channels</button><button onclick="setAnalyticsChannel(this,'Instagram')">◎ Instagram</button><button onclick="setAnalyticsChannel(this,'Facebook')">f Facebook</button><button onclick="setAnalyticsChannel(this,'LinkedIn')">in LinkedIn</button><button onclick="setAnalyticsChannel(this,'TikTok')">♪ TikTok</button></div>
+    <div class="toolbar-note"><span class="status-dot"></span><span id="analyticsChannelLabel">All channels</span> · live demo data</div>
+  </div>
+
+  <div class="insight-kpis">
+    <article class="insight-kpi"><div class="kpi-top"><span>Reach</span><i>↗</i></div><strong>25,430</strong><em>+18.2%</em><small>people reached</small><div class="spark"><i style="height:32%"></i><i style="height:48%"></i><i style="height:43%"></i><i style="height:62%"></i><i style="height:55%"></i><i style="height:78%"></i><i style="height:91%"></i></div></article>
+    <article class="insight-kpi"><div class="kpi-top"><span>Engagement</span><i>♡</i></div><strong>4,820</strong><em>+12.5%</em><small>total interactions</small><div class="spark"><i style="height:45%"></i><i style="height:35%"></i><i style="height:58%"></i><i style="height:51%"></i><i style="height:72%"></i><i style="height:66%"></i><i style="height:84%"></i></div></article>
+    <article class="insight-kpi"><div class="kpi-top"><span>New followers</span><i>+</i></div><strong>1,284</strong><em>+8.6%</em><small>net growth</small><div class="spark"><i style="height:28%"></i><i style="height:39%"></i><i style="height:46%"></i><i style="height:43%"></i><i style="height:64%"></i><i style="height:72%"></i><i style="height:89%"></i></div></article>
+    <article class="insight-kpi"><div class="kpi-top"><span>Engagement rate</span><i>%</i></div><strong>8.42%</strong><em>+1.2%</em><small>average per post</small><div class="spark"><i style="height:52%"></i><i style="height:44%"></i><i style="height:61%"></i><i style="height:68%"></i><i style="height:63%"></i><i style="height:81%"></i><i style="height:93%"></i></div></article>
+  </div>
+
+  <div class="analytics-main-grid">
+    <div class="panel performance-panel">
+      <div class="panel-head"><div><b>Performance trend</b><small id="chartRangeLabel">Last 30 days · reach & engagement</small></div><div class="legend"><span><i></i> Reach</span><span><i></i> Engagement</span></div></div>
+      <div class="trend-chart"><div class="chart-y"><span>30K</span><span>20K</span><span>10K</span><span>0</span></div><div class="chart-area"><div class="grid-line g1"></div><div class="grid-line g2"></div><div class="grid-line g3"></div><div class="chart-line reach-line"></div><div class="chart-line engage-line"></div><div class="chart-point p1"></div><div class="chart-point p2"></div><div class="chart-point p3"></div><div class="chart-point p4"></div><div class="chart-point p5"></div><div class="chart-point p6"></div><div class="chart-point p7"></div></div></div>
+      <div class="chart-x"><span>Sep 1</span><span>Sep 7</span><span>Sep 14</span><span>Sep 21</span><span>Sep 30</span></div>
+    </div>
+    <div class="panel takeaway-panel">
+      <div class="takeaway-badge">✦ ZIGMA AI TAKEAWAY</div><h3>Your audience is responding to visual content.</h3><p>Reels and product posts generated the strongest engagement in this demo period. Consider keeping a similar visual rhythm in your next campaign.</p><div class="takeaway-row"><span>Best format</span><b>Short video</b></div><div class="takeaway-row"><span>Strongest day</span><b>Thursday</b></div><div class="takeaway-row"><span>Suggested action</span><b>Repeat winning format →</b></div><button class="btn primary full" onclick="showPage('create');toast('AI idea opened in composer — demo')">Start with this insight</button>
+    </div>
+  </div>
+
+  <div class="analytics-secondary-grid">
+    <div class="panel channel-performance"><div class="panel-head"><div><b>Channel performance</b><small>Compare your connected networks</small></div><button class="tiny-btn" onclick="toast('Channel filters opened — demo')">Filter ▾</button></div>
+      <div class="channel-row"><span class="channel-icon ig">◎</span><div class="channel-name"><b>Instagram</b><small>12.8K followers</small></div><div class="channel-bar"><i style="width:84%"></i></div><strong>62%</strong><em>+14.8%</em></div>
+      <div class="channel-row"><span class="channel-icon fb">f</span><div class="channel-name"><b>Facebook</b><small>8.4K followers</small></div><div class="channel-bar"><i style="width:62%"></i></div><strong>24%</strong><em>+7.1%</em></div>
+      <div class="channel-row"><span class="channel-icon li">in</span><div class="channel-name"><b>LinkedIn</b><small>3.2K followers</small></div><div class="channel-bar"><i style="width:45%"></i></div><strong>14%</strong><em>+4.3%</em></div>
+    </div>
+    <div class="panel audience-panel"><div class="panel-head"><div><b>Audience growth</b><small>Follower movement</small></div><span class="growth-total">+1,284</span></div><div class="audience-chart"><div class="aud-grid"></div><div class="aud-area"></div><div class="aud-line"></div></div><div class="audience-labels"><span>Week 1</span><span>Week 2</span><span>Week 3</span><span>Week 4</span></div></div>
+  </div>
+
+  <div class="panel top-content-panel">
+    <div class="panel-head"><div><b>Top content</b><small>Posts with the strongest response</small></div><div class="table-tools"><button class="tiny-btn active">Engagement</button><button class="tiny-btn">Reach</button><button class="tiny-btn">Shares</button></div></div>
+    <div class="content-table"><div class="table-head"><span>CONTENT</span><span>CHANNEL</span><span>REACH</span><span>ENGAGEMENT</span><span>RATE</span></div>
+      <div class="table-row"><div class="content-title"><span class="content-thumb thumb-one">01</span><div><b>Weekend campaign</b><small>Sep 21 · Photo</small></div></div><span><i class="table-social ig">◎</i> Instagram</span><strong>4,820</strong><strong>612</strong><em>9.4%</em></div>
+      <div class="table-row"><div class="content-title"><span class="content-thumb thumb-two">02</span><div><b>Product reel</b><small>Sep 18 · Video</small></div></div><span><i class="table-social ig">◎</i> Instagram</span><strong>3,960</strong><strong>488</strong><em>8.8%</em></div>
+      <div class="table-row"><div class="content-title"><span class="content-thumb thumb-three">03</span><div><b>Customer story</b><small>Sep 14 · Image</small></div></div><span><i class="table-social fb">f</i> Facebook</span><strong>3,210</strong><strong>355</strong><em>7.9%</em></div>
+      <div class="table-row"><div class="content-title"><span class="content-thumb thumb-four">04</span><div><b>Industry tips</b><small>Sep 10 · Carousel</small></div></div><span><i class="table-social li">in</i> LinkedIn</span><strong>2,740</strong><strong>291</strong><em>7.2%</em></div>
+    </div>
+  </div>
+
+  <div class="insight-bottom-grid">
+    <div class="panel best-times"><div class="panel-head"><div><b>Best posting windows</b><small>Based on demo engagement patterns</small></div></div><div class="time-grid"><div><span>Mon</span><b>6:30 PM</b><em>82%</em></div><div><span>Tue</span><b>7:00 PM</b><em>88%</em></div><div class="best"><span>Wed</span><b>7:30 PM</b><em>96%</em></div><div><span>Thu</span><b>6:45 PM</b><em>91%</em></div><div><span>Fri</span><b>8:00 PM</b><em>76%</em></div></div></div>
+    <div class="panel report-panel"><div><span class="eyebrow">REPORTING</span><h3>Turn insights into a shareable report.</h3><p>Package your key metrics, top posts and growth highlights for your team or project presentation.</p></div><button class="btn ghost" onclick="exportAnalytics()">Generate report →</button></div>
+  </div>
+</section>
+
+<section id="inbox" class="page">
+  <div class="page-head"><div><span class="eyebrow">ENGAGEMENT</span><h1>Social inbox</h1><p>Manage comments and messages in one place.</p></div><button class="btn ghost" onclick="toast('All conversations marked as read')">Mark all read</button></div>
+  <div class="inbox-layout"><div class="conversation-list"><div class="search">⌕ Search conversations...</div><div class="conversation active"><span class="avatar ig">◎</span><div><b>Instagram · @maya</b><small>Love this! Where can I get it?</small></div><i>2</i></div><div class="conversation"><span class="avatar fb">f</span><div><b>Facebook · Alex</b><small>Thanks for the update!</small></div></div><div class="conversation"><span class="avatar ig">◎</span><div><b>Instagram · @nina</b><small>Can you share more details?</small></div><i>1</i></div></div><div class="chat"><div class="chat-head"><span class="avatar ig">◎</span><div><b>@maya</b><small>Instagram comment</small></div></div><div class="messages"><div class="msg">Love this! Where can I get it?</div><div class="msg mine">Thanks Maya! We’ll send you the details shortly. ✨</div></div><div class="reply"><input placeholder="Write a reply..."><button onclick="toast('Reply sent (demo)')">Send</button></div></div></div>
+</section>
+
+<section id="media" class="page">
+  <div class="page-head"><div><span class="eyebrow">ASSETS</span><h1>Media library</h1><p>Keep your images and videos organized.</p></div><button class="btn primary" onclick="toast('File picker opened in the real app')">＋ Upload media</button></div>
+  <div class="media-toolbar"><input placeholder="⌕ Search media"><button>All media ▾</button><button>Newest ▾</button></div>
+  <div class="media-grid"><div class="media-card grad1"><span>PHOTO</span><b>Weekend campaign</b></div><div class="media-card grad2"><span>VIDEO</span><b>Product reel</b></div><div class="media-card grad3"><span>PHOTO</span><b>Behind the scenes</b></div><div class="media-card grad4"><span>PHOTO</span><b>Customer story</b></div><div class="media-card grad5"><span>VIDEO</span><b>New collection</b></div><div class="media-card grad6"><span>PHOTO</span><b>Monthly recap</b></div></div>
+</section>
+
+<section id="accounts" class="page">
+  <div class="page-head"><div><span class="eyebrow">CHANNELS</span><h1>Social accounts</h1><p>Connect and manage your social channels.</p></div><button class="btn primary" onclick="toast('Account connection is UI-only in this frontend demo.')">＋ Connect account</button></div>
+  <div class="account-grid"><div class="account-card"><span class="big-social ig">◎</span><h3>Instagram</h3><p>@zigmasocial</p><strong class="connected">● Connected</strong><button>Manage</button></div><div class="account-card"><span class="big-social fb">f</span><h3>Facebook</h3><p>ZigmaSocial Page</p><strong class="connected">● Connected</strong><button>Manage</button></div><div class="account-card"><span class="big-social li">in</span><h3>LinkedIn</h3><p>ZigmaSocial</p><strong class="connected">● Connected</strong><button>Manage</button></div><div class="account-card add" onclick="toast('Connect account flow is UI-only.')"><span>＋</span><h3>Add another account</h3><p>Connect a social channel</p></div></div>
+</section>
+
+<section id="ai" class="page">
+  <div class="page-head"><div><span class="eyebrow">AI POWERED</span><h1>Zigma AI Studio</h1><p>Create captions, ideas and campaign content faster.</p></div><button class="btn primary" onclick="generateAIContent()">✦ Generate content</button></div>
+  <div class="ai-grid">
+    <div class="panel"><div class="panel-head"><b>AI Content Assistant</b><small>Choose what you need</small></div>
+      <div class="ai-options"><button onclick="setAI('caption')">✦ Caption</button><button onclick="setAI('ideas')">💡 Content ideas</button><button onclick="setAI('hashtags')"># Hashtags</button><button onclick="setAI('cta')">↗ CTA</button><button onclick="setAI('rewrite')">✎ Rewrite</button><button onclick="setAI('translate')">文 Translate</button></div>
+      <textarea id="aiPrompt" class="ai-prompt" placeholder="Describe your business, product or campaign..."></textarea><button class="btn primary" onclick="generateAIContent()">Generate →</button>
+    </div>
+    <div class="panel ai-output"><div class="panel-head"><b>Generated result</b><button class="btn ghost" onclick="copyAI()">Copy</button></div><div id="aiResult">Your AI-generated content will appear here.</div></div>
+  </div>
+</section>
+
+<section id="campaigns" class="page">
+  <div class="page-head"><div><span class="eyebrow">CAMPAIGNS</span><h1>Campaign manager</h1><p>Organize content, goals and performance by campaign.</p></div><button class="btn primary" onclick="toast('New campaign created — demo')">＋ New campaign</button></div>
+  <div class="campaign-grid"><div class="panel campaign-card"><span class="campaign-status live">ACTIVE</span><h3>Weekend Launch</h3><p>Product awareness campaign</p><div class="campaign-stats"><span><b>12</b> Posts</span><span><b>18.4K</b> Reach</span><span><b>7.8%</b> Engagement</span></div><div class="progress"><i style="width:72%"></i></div></div>
+  <div class="panel campaign-card"><span class="campaign-status">PLANNED</span><h3>October Growth</h3><p>Audience growth campaign</p><div class="campaign-stats"><span><b>20</b> Posts</span><span><b>—</b> Reach</span><span><b>—</b> Engagement</span></div><div class="progress"><i style="width:24%"></i></div></div></div>
+</section>
+
+<section id="approvals" class="page">
+  <div class="page-head"><div><span class="eyebrow">WORKFLOW</span><h1>Content approvals</h1><p>Review and approve content before publishing.</p></div><button class="btn ghost" onclick="toast('All visible drafts filtered')">Filter</button></div>
+  <div class="panel approval-list"><div class="approval-row"><div class="approval-thumb">01</div><div><b>Weekend campaign</b><small>Instagram · Created by Content Team</small></div><span class="approval pending">Needs review</span><button class="btn ghost" onclick="approveItem(this)">Review</button></div>
+  <div class="approval-row"><div class="approval-thumb">02</div><div><b>Product announcement</b><small>Facebook · Created yesterday</small></div><span class="approval pending">Needs review</span><button class="btn ghost" onclick="approveItem(this)">Review</button></div>
+  <div class="approval-row"><div class="approval-thumb">03</div><div><b>Industry tips</b><small>LinkedIn · Approved by Admin</small></div><span class="approval approved">Approved</span><button class="btn ghost" onclick="toast('Approved content opened')">View</button></div></div>
+</section>
+
+<section id="reports" class="page">
+  <div class="page-head"><div><span class="eyebrow">REPORTING</span><h1>Reports</h1><p>Create clear social performance reports for teams and clients.</p></div><button class="btn primary" onclick="toast('Report generated — demo')">↓ Generate report</button></div>
+  <div class="report-cards"><div class="panel"><span class="eyebrow">MONTHLY</span><h3>September Social Report</h3><p>Reach, engagement, follower growth and top-performing content.</p><button class="btn ghost" onclick="toast('PDF report prepared — demo')">PDF</button> <button class="btn ghost" onclick="toast('CSV report prepared — demo')">CSV</button></div><div class="panel"><span class="eyebrow">CLIENT</span><h3>Campaign Performance</h3><p>Shareable summary of campaign results and key highlights.</p><button class="btn ghost" onclick="toast('Share link copied — demo')">Share report</button></div></div>
+</section>
+
+<section id="brand" class="page">
+  <div class="page-head"><div><span class="eyebrow">BRAND CONTROL</span><h1>Brand kit</h1><p>Keep your visual identity and brand guidelines in one place.</p></div><button class="btn primary" onclick="toast('Brand settings saved — demo')">Save changes</button></div>
+  <div class="brand-grid"><div class="panel"><div class="panel-head"><b>Visual identity</b></div><div class="brand-logo-row"><img src="zigma-logo.png"><div><b>ZigmaSocial</b><small>Primary logo</small></div><button class="btn ghost" onclick="toast('Logo picker opened — demo')">Replace</button></div><label>Brand colors</label><div class="color-row"><span>#635BFF</span><span>#8B5CF6</span><span>#14172A</span><span>#F7F8FC</span></div></div><div class="panel"><div class="panel-head"><b>Brand voice</b></div><select class="brand-input"><option>Professional & Friendly</option><option>Bold & Modern</option><option>Simple & Helpful</option></select><textarea class="brand-input" placeholder="Describe your brand guidelines...">Keep copy clear, modern and helpful.</textarea></div></div>
+</section>
+
+<section id="competitors" class="page">
+  <div class="page-head"><div><span class="eyebrow">BENCHMARKING</span><h1>Competitor insights</h1><p>Compare content activity and engagement patterns.</p></div><button class="btn primary" onclick="toast('Competitor scan refreshed — demo')">↻ Refresh insights</button></div>
+  <div class="panel competitor-table"><div class="comp-head"><span>Account</span><span>Posts</span><span>Engagement</span><span>Growth</span></div><div class="comp-row"><b>ZigmaSocial</b><span>48</span><span>8.42%</span><em>+12.4%</em></div><div class="comp-row"><b>Brand Alpha</b><span>39</span><span>7.10%</span><em>+9.8%</em></div><div class="comp-row"><b>Brand Nova</b><span>52</span><span>6.84%</span><em>+7.3%</em></div></div>
+</section>
+
+<section id="listening" class="page">
+  <div class="page-head"><div><span class="eyebrow">MONITORING</span><h1>Social listening</h1><p>Monitor keywords, mentions and campaign conversations from one place.</p></div><button class="btn primary" onclick="refreshListening()">↻ Refresh monitor</button></div>
+  <div class="launch-grid three">
+    <div class="panel launch-stat"><span>Tracked mentions</span><b>1,842</b><em>+14.6%</em></div>
+    <div class="panel launch-stat"><span>Positive sentiment</span><b>78%</b><em>+5.2%</em></div>
+    <div class="panel launch-stat"><span>Priority mentions</span><b>24</b><em>Needs review</em></div>
+  </div>
+  <div class="launch-two-col">
+    <div class="panel"><div class="panel-head"><div><b>Tracked topics</b><small>Keywords and brand themes</small></div><button class="tiny-btn" onclick="addDemoItem('topic')">＋ Add topic</button></div>
+      <div class="topic-list"><div><b>ZigmaSocial</b><span>842 mentions</span><em>Positive</em></div><div><b>social media tools</b><span>516 mentions</span><em>Positive</em></div><div><b>content planning</b><span>301 mentions</span><em>Neutral</em></div><div><b>campaign launch</b><span>183 mentions</span><em>Positive</em></div></div>
+    </div>
+    <div class="panel"><div class="panel-head"><div><b>Recent mentions</b><small>Latest monitored conversations</small></div><button class="tiny-btn" onclick="toast('Mention filters opened — demo')">Filter</button></div>
+      <div class="mention-list"><div><span class="mention-icon">◎</span><p><b>@creator_maya</b> mentioned ZigmaSocial in a campaign planning post.<small>Instagram · 12 min ago</small></p><strong>Positive</strong></div><div><span class="mention-icon">in</span><p><b>Marketing Weekly</b> discussed content scheduling workflows.<small>LinkedIn · 38 min ago</small></p><strong>Neutral</strong></div><div><span class="mention-icon">f</span><p><b>Alex Media</b> asked about analytics reporting.<small>Facebook · 1 hr ago</small></p><strong>Reply</strong></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="automation" class="page">
+  <div class="page-head"><div><span class="eyebrow">AUTOMATION</span><h1>Automation center</h1><p>Create repeatable workflows for publishing, engagement and reporting.</p></div><button class="btn primary" onclick="toast('Automation rule created — demo')">＋ New automation</button></div>
+  <div class="automation-grid">
+    <div class="panel automation-card"><span class="automation-icon">↻</span><div><h3>Evergreen recycling</h3><p>Reuse approved evergreen posts on selected days and channels.</p></div><label class="switch"><input type="checkbox" checked onchange="toggleAutomation(this,'Evergreen recycling')"><i></i></label><small>Runs every 7 days</small></div>
+    <div class="panel automation-card"><span class="automation-icon">✉</span><div><h3>Inbox alerts</h3><p>Notify the team when priority comments or messages arrive.</p></div><label class="switch"><input type="checkbox" checked onchange="toggleAutomation(this,'Inbox alerts')"><i></i></label><small>Priority mentions only</small></div>
+    <div class="panel automation-card"><span class="automation-icon">▤</span><div><h3>Weekly report</h3><p>Prepare a weekly performance summary for the workspace.</p></div><label class="switch"><input type="checkbox" onchange="toggleAutomation(this,'Weekly report')"><i></i></label><small>Every Monday · 9:00 AM</small></div>
+  </div>
+  <div class="panel"><div class="panel-head"><div><b>Workflow recipes</b><small>Prebuilt ideas for a production workflow</small></div></div><div class="recipe-grid"><button onclick="toast('Recipe selected — demo')"><b>New follower → welcome reply</b><small>Engagement</small></button><button onclick="toast('Recipe selected — demo')"><b>Approved → schedule</b><small>Publishing</small></button><button onclick="toast('Recipe selected — demo')"><b>Campaign complete → report</b><small>Reporting</small></button></div></div>
+</section>
+
+<section id="bulk" class="page">
+  <div class="page-head"><div><span class="eyebrow">PUBLISHING</span><h1>Bulk scheduler</h1><p>Prepare multiple posts together and review them before scheduling.</p></div><button class="btn primary" onclick="toast('CSV import opened — demo')">＋ Import CSV</button></div>
+  <div class="panel bulk-upload"><div class="bulk-drop"><span>⇩</span><b>Drop a CSV file here</b><small>or choose a file to load your content queue</small><button class="btn ghost" onclick="toast('CSV picker opened — demo')">Choose file</button></div></div>
+  <div class="panel"><div class="panel-head"><div><b>Publishing queue</b><small>8 demo posts ready for review</small></div><button class="tiny-btn" onclick="toast('Queue filtered — demo')">Filter</button></div><div class="bulk-table"><div class="bulk-head"><span>POST</span><span>CHANNEL</span><span>DATE</span><span>STATUS</span></div><div class="bulk-row"><b>Weekend campaign</b><span>Instagram</span><span>Sep 27 · 7:00 PM</span><em>Ready</em></div><div class="bulk-row"><b>Industry tips</b><span>LinkedIn</span><span>Sep 28 · 9:00 AM</span><em>Ready</em></div><div class="bulk-row"><b>Product story</b><span>Facebook</span><span>Sep 29 · 10:30 AM</span><em>Review</em></div><div class="bulk-row"><b>Community question</b><span>TikTok</span><span>Sep 30 · 6:00 PM</span><em>Draft</em></div></div></div>
+</section>
+
+
+
+<section id="repurpose" class="page">
+  <div class="page-head"><div><span class="eyebrow">CONTENT ENGINE</span><h1>Content repurpose</h1><p>Turn one core idea into platform-ready variations without rebuilding the workflow.</p></div><button class="btn primary" onclick="repurposeDemo()">✦ Repurpose</button></div>
+  <div class="repurpose-grid"><div class="panel"><div class="panel-head"><b>Source content</b><small>Start with one message</small></div><textarea id="repurposeSource" class="launch-textarea" placeholder="Paste your original post, campaign message or video idea...">Launch week is here. Discover our new collection and share your favorite picks with the community.</textarea><button class="btn primary" onclick="repurposeDemo()">Create variations →</button></div><div class="panel"><div class="panel-head"><b>Platform variations</b><small>Preview the content direction</small></div><div id="repurposeResults" class="repurpose-results"><div><span>Instagram</span><p>Short, visual caption with a community CTA.</p></div><div><span>LinkedIn</span><p>Professional launch update with a clear value statement.</p></div><div><span>TikTok</span><p>Hook-first script outline for a short-form video.</p></div><div><span>Facebook</span><p>Friendly post with an engagement question.</p></div></div></div></div>
+</section>
+
+<section id="audience" class="page">
+  <div class="page-head"><div><span class="eyebrow">AUDIENCE</span><h1>Audience insights</h1><p>Understand who engages, when they are active and what content they respond to.</p></div><button class="btn ghost" onclick="toast('Audience filters opened — demo')">Filter audience</button></div>
+  <div class="launch-grid four"><div class="panel launch-stat"><span>Total audience</span><b>18.6K</b><em>+8.6%</em></div><div class="panel launch-stat"><span>Most active age</span><b>25–34</b><em>Demo data</em></div><div class="panel launch-stat"><span>Top location</span><b>Colombo</b><em>Demo data</em></div><div class="panel launch-stat"><span>Peak activity</span><b>7:30 PM</b><em>Wednesday</em></div></div>
+  <div class="audience-detail-grid"><div class="panel"><div class="panel-head"><b>Audience segments</b><small>Engagement distribution</small></div><div class="segment"><span>Creators & professionals</span><div><i style="width:68%"></i></div><b>68%</b></div><div class="segment"><span>Small businesses</span><div><i style="width:52%"></i></div><b>52%</b></div><div class="segment"><span>Marketing teams</span><div><i style="width:44%"></i></div><b>44%</b></div><div class="segment"><span>Agencies</span><div><i style="width:31%"></i></div><b>31%</b></div></div><div class="panel"><div class="panel-head"><b>Activity windows</b><small>Relative audience activity</small></div><div class="activity-grid"><span>Morning <b>42%</b></span><span>Afternoon <b>61%</b></span><span class="peak">Evening <b>89%</b></span><span>Night <b>54%</b></span></div></div></div>
+</section>
+
+<section id="replies" class="page">
+  <div class="page-head"><div><span class="eyebrow">ENGAGEMENT</span><h1>Saved replies</h1><p>Keep approved response templates ready for common questions and comments.</p></div><button class="btn primary" onclick="toast('Saved reply created — demo')">＋ New reply</button></div>
+  <div class="reply-template-grid"><div class="panel reply-template"><div class="panel-head"><b>Product details</b><span>12 uses</span></div><p>Thanks for your interest! We’ll send the product details and next steps shortly. ✨</p><button class="btn ghost" onclick="useReply('Product details')">Use reply</button></div><div class="panel reply-template"><div class="panel-head"><b>Positive comment</b><span>28 uses</span></div><p>Thank you! We’re so glad you enjoyed it. Your support means a lot to our community.</p><button class="btn ghost" onclick="useReply('Positive comment')">Use reply</button></div><div class="panel reply-template"><div class="panel-head"><b>Support handoff</b><span>7 uses</span></div><p>Thanks for reaching out. Please share the details privately so our team can help you further.</p><button class="btn ghost" onclick="useReply('Support handoff')">Use reply</button></div></div>
+</section>
+
+<section id="team" class="page">
+  <div class="page-head"><div><span class="eyebrow">COLLABORATION</span><h1>Team & workspaces</h1><p>Organize people, clients and permissions around separate workspaces.</p></div><button class="btn primary" onclick="toast('Invite sent — demo')">＋ Invite member</button></div>
+  <div class="workspace-grid"><div class="panel workspace-card"><span class="workspace-badge">CURRENT</span><h3>ZigmaSocial Workspace</h3><p>Personal workspace · 4 members</p><div class="member-stack"><span>P</span><span>A</span><span>M</span><span>+1</span></div><button class="btn ghost" onclick="toast('Workspace opened — demo')">Open workspace</button></div><div class="panel workspace-card"><span class="workspace-badge">CLIENT</span><h3>Demo Brand Workspace</h3><p>Client workspace · 3 members</p><div class="member-stack"><span>D</span><span>K</span><span>+1</span></div><button class="btn ghost" onclick="toast('Client workspace opened — demo')">Open workspace</button></div></div>
+  <div class="panel roles-panel"><div class="panel-head"><div><b>Roles & permissions</b><small>Control access to publishing and reports</small></div><button class="tiny-btn" onclick="toast('Permission editor opened — demo')">Manage roles</button></div><div class="role-row"><b>Admin</b><span>All workspace access</span><em>Full access</em></div><div class="role-row"><b>Editor</b><span>Create, edit and schedule content</span><em>Publishing</em></div><div class="role-row"><b>Analyst</b><span>View analytics and reports</span><em>Read only</em></div></div>
+</section>
+
+<section id="linkbio" class="page">
+  <div class="page-head"><div><span class="eyebrow">PROFILE TOOLS</span><h1>Link in bio</h1><p>Build a simple destination page for campaigns, products and important links.</p></div><button class="btn primary" onclick="toast('Bio page published — demo')">Publish page</button></div>
+  <div class="linkbio-grid"><div class="panel"><div class="panel-head"><b>Page blocks</b><small>Drag-and-drop concept</small></div><div class="bio-block"><b>✦ ZigmaSocial</b><small>Social media management workspace</small></div><div class="bio-block"><b>New collection</b><small>Featured campaign link</small></div><div class="bio-block"><b>Watch our latest reel</b><small>Video destination</small></div><button class="btn ghost full" onclick="toast('New bio block added — demo')">＋ Add block</button></div><div class="panel bio-preview"><div class="bio-phone"><img src="zigma-logo.png" alt="ZigmaSocial"><b>ZigmaSocial</b><small>Plan. Publish. Analyze.</small><div>Start Free →</div><div>Latest campaign</div><div>Instagram highlights</div></div></div></div>
+</section>
+
+</main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
